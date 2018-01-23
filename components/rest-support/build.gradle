@@ -1,3 +1,4 @@
 dependencies {
     compile "org.springframework:spring-web:$springVersion"
+    compile "org.springframework.cloud:spring-cloud-commons:1.2.2.RELEASE" // originally 1.1.8, but should match some eureka thing, so we change it to 1.2.2
 }
